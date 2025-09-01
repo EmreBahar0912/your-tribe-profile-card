@@ -26,9 +26,13 @@ article.profile-card-example {
   min-width: 20em;
   border-radius: 1rem;
   background: rgb(0,239,255);
-  background: linear-gradient(0deg, rgba(0,239,255,1) 40%, #4e54c8 100%);
+  background: linear-gradient(0deg, rgb(209, 25, 25) 40%, #800b0b 100%);
   box-shadow: 0 0 20px 20px rgba(0,0,0,.1);
   transition: .25s;
+}
+
+.vak {
+  color: rgb(216, 199, 199);
 }
 
 header.profile-card-example-header {
@@ -41,7 +45,7 @@ header.profile-card-example-header {
   /* Je kunt selectors nesten! */
   h1 {
     margin: 2rem 0 1rem;
-    color: rgba(0,239,255,1);
+    color: rgb(247, 237, 237);
   }
 
 }
@@ -55,23 +59,23 @@ button.profile-card-example-button {
   padding: .25rem;
   border: none;
   border-radius: 50%;
-  background: rgba(0,239,255,1);
+  background: rgb(255, 103, 103);
   transform: scale(.8);
   transition: .25s;
 }
 button.profile-card-example-button:focus {
   outline: none;
-  background: #202592;
+  background: #c70000;
 }
 button.profile-card-example-button svg {
   position: absolute;
   top: calc(1.25rem - 12px);
   left: calc(1.25rem - 12px);
-  stroke: #4e54c8;
+  stroke: #000000;
   transition-delay: .25s;
 }
 button.profile-card-example-button:focus svg {
-  stroke: rgba(0,239,255,1);
+  stroke: rgb(0, 0, 0);
 }
 button.profile-card-example-button svg:nth-of-type(2) {
   opacity: 0;
