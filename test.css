@@ -1,0 +1,136 @@
+article {
+    justify-content: center;
+    justify-items: center;
+    /* muis er af zorgt voor een animatie terug*/
+    transition: all 2s ease-out;
+}
+
+/* muis eroverheen zorgt voor animatie */
+article:hover {
+    transform: rotate(180deg);
+    margin-top: 450px;
+    transition-timing-function: ease;
+    transition: 2s;
+}
+
+div {
+    border: 3px solid black;
+    width: 500px;
+    height: 900px;
+    border-radius: 25px;
+    background-image: url("afbeelding\ \(4\).png");
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1 {
+    /* justify content en items zorgen ervoor dat html elementen in het midden komen te staan */
+    justify-content: center;
+    justify-items: center;
+    /* zonder display flex kan een element niet in center staan */
+    display: flex
+}
+
+section {
+    justify-content: center;
+    display: flex;
+    /* space between zorgt voor ruimte tussen tekst */
+    justify-content: space-between;
+}
+
+/* margin zorgt ervoor dat je html elementen kunt verplaatsen van plek */
+.info1 {
+    margin-left: 50px;
+}
+
+.info3 {
+    margin-right: 50px;
+}
+
+.info2 {
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.tekst1 {
+    margin-right: 350px;
+    margin-left: 25px;
+}
+
+.tekst2 {
+    margin-right: 175px;
+    margin-left: 175px;
+    margin-top: -150px;
+}
+
+.tekst3 {
+    margin-left: 350px;
+    margin-top: -155px;
+}
+
+img {
+    height: 200px;
+    width: 110px;
+    margin-left: 620px;
+    margin-top: -1000px;
+    margin-bottom: 350px;
+    border-radius: 10px;
+    /* zorgt voor een smooth transitie met vertraging */
+    transition: transform .2s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img:hover {
+    /* zorgt voor vergroting van afbeelding */
+    transform: scale(1.8);
+}
+
+h3.info5 {
+    margin-right: 50px;
+    margin-top: -150px;
+}
+h3.info4 {
+    margin-right: 50px;
+    margin-top: -115px;
+}
+
+h3.info6 {
+    margin-top: -115px;
+}
+
+h1.private {
+    margin-top: -75px;
+}
+
+p.tekst4 {
+    margin-right: 375px;
+    margin-top: -250px;
+    padding-left: 50px;
+    width: 150px;
+}
+
+p.tekst5 {
+    width: 150px;
+    margin-top: -125px;
+    margin-left: 50px;
+}
+
+p.tekst6 {
+    width: 100px;
+    margin-left: 350px;
+    margin-top: -145px;
+}
+
+p.line {
+    margin-top: -325px;
+}
+
+body {
+    background-image: url("afbeelding\ \(7\).png");
+}
+
+.info7 {
+    background-color: black;
+    color: white;
+    width: 350px;
+    border: 3px solid black;
+}
